@@ -1,3 +1,11 @@
+<div class="form-froup row" *ngIf="dep.DepartmentId==0"ˀ>
+
+    <label class="col-sm-2 col-form-label">Department ID</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="DepartmentId"
+        placeholder="Enter Department ID">
+    </div>
+</div>
 <div class="form-froup row">
 
     <label class="col-sm-2 col-form-label">Department Name</label>
